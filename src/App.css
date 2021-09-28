@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+  background-color: #22222e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display{
+  background-color:#d3e2dd;
+  color: #2e336b;
+  width: 60vw;
+  text-align: right;
+  font-family: "Orbitron";
+  border: solid 5px #8c908f;
+}
+.wide{
+  width: 45vw;
+  background-color: #e39148;
+}
+.button{
+  border-radius: 40%;
+  padding: 1%;
+  margin: 1%;
+  border: solid 3px #8c908f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* align-items: center; */
+  flex-direction: row;
+  padding-inline: 12vw;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.operator {
+  background-color: #655a9f;
+  width:  15vw;
+  height: 15vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.num{
+  width: 15vw;
+  height: 15vh;
+  background-color: #202528;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.zero {
+  width: 30vw;
+  height: 15vh;
+  background-color: #202528;
+  color: white;
 }

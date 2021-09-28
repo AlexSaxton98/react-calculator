@@ -1,0 +1,33 @@
+/* .App {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  border: solid black 40px;
+  max-height: 50vh;
+} */
+
+/* .Images{
+  border: solid black 2px;
+  padding: 1%;
+  width: 20%;
+  
+} */
+/* .Images img{
+  height: 230px;
+  border-radius: 2%;
+} */
+
+/* .App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.darkMode{
+  color: white;
+  background-color: black;
+}
